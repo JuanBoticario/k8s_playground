@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: snake
+spec:
+  containers:
+  - name: snake
+    image: bhargavshah86/kube-test:v0.1
+    ports:
+      - containerPort: 80
+

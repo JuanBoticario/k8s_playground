@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello
+spec:
+  containers:
+  - name: hello
+    image: ngcr.io/google-samples/kubernetes-bootcamp:v1
+    ports:
+    - containerPort: 80
